@@ -1,7 +1,6 @@
 ---
 title: "README"
 output: html_document
-date: '2022-10-12'
 ---
 
 ## RISS Zotero translator
@@ -35,6 +34,10 @@ date: '2022-10-12'
 ## 개발 관련 몇 가지 팁
 
 * Zotero translator를 수정한 후 실시간으로 적용이 되지 않기 때문에 크롬을 종료하고 다시 실행해야 한다. 시간이 너무 오래 걸려서 Save to Zotero를 적용한 페이지를 `.html`로 저장한 후 `</body>` 직전에 `<script src="zot.js"></script>`를 추가하고, `zot.js`에 필요한 코드를 작성하면서 `console.log()`로 필요한 변수를 출력하였다. 이때 `doc` 대신 `document`를 사용해야 한다. 
+
+* 저장 정보 입력 시 서양 이름과 다르게 한국 이름은 한 칸으로 저장하는 게 자연스러운데 이름을 한 칸에 저장하는 방법을 몰라서 그냥 두 칸 중 첫 칸에 저장했다. `한 칸으로 전환` 버튼을 누르면 쉽게 변경할 수 있다. 
+
+![](zotero_riss.gif)
 
 * 도서 정보 필드 이름에 대한 정확한 공식 문서가 없어서 고생했다. Zotero에서 제공하는 다른 translator 파일(`.js`)를 참조하여 확인한 필드 이름은 다음과 같다.
   
