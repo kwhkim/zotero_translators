@@ -7,6 +7,9 @@ output: html_document
 
 * Zotero translator는 zotero를 지원하지 않는 웹사이트에서 인용 정보를 zotero로 쉽게 불러들이기 위해 사용한다.
 
+* 사용방법 : RISS translator(`RISS.js`)를 Zotero의 환경설정 - 고급 - 파일 및 폴더 - 저장 위치 의 하위 폴더 `translator`에 복사한다.
+  - [참고 동영상](https://www.youtube.com/watch?v=nc7TEFEbhpA&ab_channel=erazlogo)
+
 ## Zotero 지원 현황
 
 * 우리나라의 많은 도서관에서 Zotero를 지원하지 않아서 도서를 인용할 때 불편하다.
