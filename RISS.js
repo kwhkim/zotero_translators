@@ -179,21 +179,29 @@ for (var i in elems2) {
 // additionalInfoDiv > div > div > div:nth-child(2) > ul
 //extra2 = doc.querySelector("#additionalInfoDiv > div").textContent
 ////var extra2 = doc.querySelector("#additionalInfoDiv > div > div > div:nth-child(2) > ul")
-var extra3 = doc.querySelector("#additionalInfoDiv > div > div > div:nth-child(3)")
-// console.log(extra2)
-//if (extra2) {
-	// console.log("<extra2 -> note?>"+extra2.textContent)
-//}
-//var extra3 = extra2.textContent.trim()
 
-////newItem.notes.push({note: extra2.textContent.trim()})
-newItem.notes.push({note: extra3.innerText})
+	try {
+		var extra3 = doc.querySelector("#additionalInfoDiv > div > div > div:nth-child(3)")
+		// console.log(extra2)
+		//if (extra2) {
+			// console.log("<extra2 -> note?>"+extra2.textContent)
+		//}
+		//var extra3 = extra2.textContent.trim()
+
+		////newItem.notes.push({note: extra2.textContent.trim()})
+		newItem.notes.push({note: extra3.innerText});
+		newItem.complete();
+	} catch(error) {
+		newItem.complete();
+		// console.error(error);
+		// break;
+	}
 
 //console.log(elems2)
 
 
 //console.log(elems2)
-	newItem.complete();
+	//newItem.complete();
 }
 
 /** BEGIN TEST CASES **/
