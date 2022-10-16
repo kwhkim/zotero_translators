@@ -85,5 +85,11 @@ audioRecordingFormat 	          billNumber 	           blogTitle
                  url 	       versionNumber 	videoRecordingFormat 	
               volume 	        websiteTitle 	         websiteType
 ```
-  
+
+* 확인 결과 [zotero github](https://github.com/zotero/zotero/blob/master/chrome/locale/ko-KR/zotero/zotero.properties)에서도 확인 가능하다.
+
+## History
+
+* 2022-10-13 : mac에서 작동 확인(BigSur, Safari)
+
 
