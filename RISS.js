@@ -112,6 +112,15 @@ for (var i in elems2) {
 			
 		}
 	}
+	
+		if (field == "KDC") {
+		extra = extra + "[@KDC]\n" + content + "\n"
+	    }
+	    
+		if (field == "DDC") {
+		extra = extra + "[@DDC]\n" + content + "\n"
+	    }
+
 
 	if (field == "ISBN") {
 		isbn = content.trim().replace(/\:.*/, '').replace(/.*[(]SET[)]/, '').trim()
@@ -121,7 +130,7 @@ for (var i in elems2) {
 
 	if (field == "자료형태") {
 		// console.log(content)
-		extra = "자료형태 : " + content + "\n"
+		extra = extra + "[@자료형태]\n" + content + "\n"
 	}
 
 	if (field == "발행국(도시)") {
@@ -136,7 +145,7 @@ for (var i in elems2) {
 	// 원서명
 	if (field == "원서명") {
 		// console.log(content)
-		extra = extra + "원서명 : " + content + "\n"
+		extra = extra + "[@원서명]\n" + content + "\n"
 	}
 
 	// 판사항
@@ -162,11 +171,13 @@ for (var i in elems2) {
 
 	// 일반주기명
 	if (field == "일반주기명") {
-		extra = extra + "일반주기명 : " + content + "\n"
+		extra = extra + "[@일반주기명]\n" + content + "\n"
 
-		// newItem.extra = extra
+		
 	}
 }
+
+newItem.extra = extra
 
 // console.log('======')
 
