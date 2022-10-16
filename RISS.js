@@ -60,6 +60,8 @@ const elems2 = doc.querySelectorAll("#thesisInfoDiv > div.infoDetail.on > div.in
 // // console.log(elems2[0][0])  // TypeError: Cannot read properties of undefined (reading '0')
 // console.log("================")
 
+var extra = ""
+
 for (var i in elems2) {
 	try {
 		field = elems2[i].querySelector('span').innerText.trim();
@@ -119,6 +121,7 @@ for (var i in elems2) {
 
 	if (field == "자료형태") {
 		// console.log(content)
+		extra = "자료형태 : " + content + "\n"
 	}
 
 	if (field == "발행국(도시)") {
@@ -133,6 +136,7 @@ for (var i in elems2) {
 	// 원서명
 	if (field == "원서명") {
 		// console.log(content)
+		extra = extra + "원서명 : " + content + "\n"
 	}
 
 	// 판사항
@@ -158,7 +162,7 @@ for (var i in elems2) {
 
 	// 일반주기명
 	if (field == "일반주기명") {
-		extra = content
+		extra = extra + "일반주기명 : " + content + "\n"
 
 		// newItem.extra = extra
 	}
