@@ -114,11 +114,11 @@ for (var i in elems2) {
 	}
 	
 		if (field == "KDC") {
-		extra = extra + "[@KDC]\n" + content + "\n"
+		extra = extra + "[@KDC]\n" + content + "\n\n"
 	    }
 	    
 		if (field == "DDC") {
-		extra = extra + "[@DDC]\n" + content + "\n"
+		extra = extra + "[@DDC]\n" + content + "\n\n"
 	    }
 
 
@@ -130,7 +130,7 @@ for (var i in elems2) {
 
 	if (field == "자료형태") {
 		// console.log(content)
-		extra = extra + "[@자료형태]\n" + content + "\n"
+		extra = extra + "[@자료형태]\n" + content + "\n\n"
 	}
 
 	if (field == "발행국(도시)") {
@@ -145,7 +145,7 @@ for (var i in elems2) {
 	// 원서명
 	if (field == "원서명") {
 		// console.log(content)
-		extra = extra + "[@원서명]\n" + content + "\n"
+		extra = extra + "[@원서명]\n" + content + "\n\n"
 	}
 
 	// 판사항
@@ -171,7 +171,7 @@ for (var i in elems2) {
 
 	// 일반주기명
 	if (field == "일반주기명") {
-		extra = extra + "[@일반주기명]\n" + content + "\n"
+		extra = extra + "[@일반주기명]\n" + content + "\n\n"
 
 		
 	}
