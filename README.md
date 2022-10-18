@@ -32,7 +32,12 @@ output: html_document
   - `detectWeb()` 함수는 현재 사이트에서 정보를 추출할 수 있는지를 확인하고,
   - `doWeb()` 함수에서 사이트의 정보를 추출한다.
   
-* [How to Write a Zotero Translator](https://niche-canada.org/member-projects/zotero-guide/chapter1.html)란 사이트도 도움이 되었다.
+* 도움이 되는 자료
+  - [zotero documentation: start>dev>translators](https://www.zotero.org/support/dev/translators)
+  - [zotero documentation: start>dev>translators>coding](https://www.zotero.org/support/dev/translators/coding)
+  - [How to Write a Zotero Translator](https://niche-canada.org/member-projects/zotero-guide/chapter1.html)
+  - [MediaWiki: Citoid/Creating Zotero translators](https://www.mediawiki.org/wiki/Citoid/Creating_Zotero_translators)
+   
 
 ## 개발 관련 몇 가지 팁
 
