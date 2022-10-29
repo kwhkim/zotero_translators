@@ -97,4 +97,8 @@ audioRecordingFormat 	          billNumber 	           blogTitle
 
 * 2022-10-13 : mac에서 작동 확인(BigSur, Safari)
 
+## TO-DOs
 
+* [KOAJ: Korea Open Access Journals](https://www.kci.go.kr/kciportal/landing/index.kci)
+* [KCI: Korea Citation Index, 한국학술지인용색인](https://www.kci.go.kr/kciportal/main.kci)
+* 
