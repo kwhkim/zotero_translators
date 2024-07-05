@@ -96,6 +96,8 @@ audioRecordingFormat 	          billNumber 	           blogTitle
 ## History
 
 * 2022-10-13 : mac에서 작동 확인(BigSur, Safari)
+* 2024-07-05 : x86_64, Debian 계열(Ubuntu 24.04 LTS), zotero 6.0.35, firefox에서 작동 확인
+  * 왜 그런지는 모르겠지만, RISS.js를 해당 폴더에 복사한 후, zotero, firefox를 다시 시작한 후에도 바로 되지 않았다. Zotero Connector의 문제일지도?
 
 ## TO-DOs
 
