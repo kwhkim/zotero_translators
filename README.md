@@ -101,6 +101,11 @@ audioRecordingFormat 	          billNumber 	           blogTitle
 
 ## TO-DOs
 
+* RISS 학술논문의 경우 [홍태희(2010)](https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=5cc56b12545a75d07ecd42904f0c5d65)처럼 translator가 정상적으로 작동하지 않는 듯 보인다.
+* [DBpia](https://www.dbpia.co.kr/)
 * [KOAJ: Korea Open Access Journals](https://www.kci.go.kr/kciportal/landing/index.kci)
 * [KCI: Korea Citation Index, 한국학술지인용색인](https://www.kci.go.kr/kciportal/main.kci)
-* 
+
+### Reference
+
+* 홍태희. (2010). 현대 거시경제학 방법론에 대한 연구. 질서경제저널, 13(4), 53-70.
